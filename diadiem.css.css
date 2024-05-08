@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.fade {
+    animation: fading 4s normal;
+
+}
+
+@keyframes fading {
+    0% {
+        opacity: 0;
+        background-color: #d2d2d2;
+    }
+
+    25% {
+        background-color: transparent;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.mySlides {
+    display: none;
+    transition: 0.4s;
+}
+
+.img {
+    width: 100vw;
+    height: 100vh;
+}
