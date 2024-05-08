@@ -1,0 +1,95 @@
+#Produce
+.ProductDetails {display: none;}
+.Product img {
+    width:500;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #aaa;
+    align-items: center;
+
+
+}
+.ProductName {
+    color:rgb(24, 78,9);
+    font-size: large;
+    font-family:cursive;
+}
+.ProductPrice {font-style:italic;}
+.ProductPrice:before {content:"-";}
+.Product {
+    text-align: center;
+    width: 150px;
+    margin: 0px 20px;
+    float: left;
+    cursor: pointer;
+    flex-direction:row;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.Product:hover .ProductDetails {display:block;}
+.about{
+    min-height: 400px;
+    display: flex;
+    gap: 230px;
+    margin: 600px 600px;
+    margin-left: 150px;
+    margin-bottom: auto;
+    margin-top: auto;
+    align-items: center;
+  }
+  
+.about .text-one {
+    min-height: 400px;
+    width: 50%;
+    margin-top: auto;
+  }
+
+.wedding{
+    min-height: 100px;
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    flex-direction: column;
+    }
+    .modal {
+        display: none; /* Ẩn mặc định */
+        position: fixed; /* Vị trí cố định trên màn hình */
+        z-index: 1; /* Hiển thị lớn hơn các phần tử khác */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full chiều rộng */
+        height: 100%; /* Full chiều cao */
+        overflow: auto; /* Cho phép cuộn nếu nội dung quá dài */
+        background-color: rgba(0, 0, 0, 0.4); /* Màu nền với độ mờ */
+      }
+      
+      .modal-content {
+        background-color: #fefefe;
+        margin: 15% auto; /* Canh giữa theo chiều cao */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%; /* Chiều rộng của màn hình nhỏ */
+      }
+
+    .modals {
+        display: none; /* Ẩn mặc định */
+        position: fixed; /* Vị trí cố định trên màn hình */
+        z-index: 1; /* Hiển thị lớn hơn các phần tử khác */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full chiều rộng */
+        height: 100%; /* Full chiều cao */
+        overflow: auto; /* Cho phép cuộn nếu nội dung quá dài */
+        background-color: rgba(0, 0, 0, 0.4); /* Màu nền với độ mờ */
+      }
+      
+      .modals-content {
+        background-color: #fefefe;
+        margin: 15% auto; /* Canh giữa theo chiều cao */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%; /* Chiều rộng của màn hình nhỏ */
+      }
